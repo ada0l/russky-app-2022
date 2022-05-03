@@ -47,4 +47,4 @@ def avatar() -> Response:
 
 @app.get('/health')
 async def health() -> str:
-    return 'I\'m sick'
+    return 'OK'
